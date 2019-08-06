@@ -29,7 +29,7 @@ async def _(event):
             output_message += "{} {} `{}`\n\n".format(
                 result.title,
                 result.description,
-                ".icb " + bot_username + " " + str(i + 1) + " " + search_query
+                ".icb " + bot_username + "NINJA9000" + str(i + 1) + " " + search_query
             )
             i = i + 1
         await event.edit(output_message)
